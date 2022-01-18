@@ -7,5 +7,9 @@ class ResultDictionary:
         direction = None
         source = None
         translate = None
+        synonyms = None
+        declensions_and_conjugations = None
+        antonyms = None
+
 
 
