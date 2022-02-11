@@ -1,5 +1,15 @@
-arr = ['1', '2', '3', '4']
-arr1 = [[0, 2], [1, 3]]
-print(arr[1:])
-a = '[0][1]'
-print(arr1[0][1])
+a = 1
+try:
+    a = 2
+    print(a)
+    raise Exception()
+except:
+    a = 3
+    print(a)
+    raise
+else:
+    a = 4
+    print(a)
+finally:
+    a = 5
+    print(a)

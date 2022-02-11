@@ -1,5 +1,8 @@
 from abc import ABC
 from enum import Enum, auto
+'https://dictionary.yandex.net/dicservice.json/lookupMultiple?sid=396bb4ba.61fa9989.a1435be1.74722d74657874&ui=ru&srv=tr-text&text=deploy&type=regular%2Csyn%2Cant%2Cderiv&lang=en-ru&flags=7591&dict=en-ru.regular%2Cen.syn%2Cen.ant%2Cen.deriv&yu=5618489511536728465&yum=1536826203321897207'
+'https://dictionary.yandex.net/dicservice.json/lookupMultiple?sid=396bb4ba.61fa9989.a1435be1.74722d74657874&ui=ru&srv=tr-text&text=deploy&type=regular%2Csyn%2Cant%2Cderiv&lang=en-ru&flags=7591&dict=en-ru.regular%2Cen.syn%2Cen.ant%2Cen.deriv&yu=5618489511536728465&yum=1536826203321897207'
+'https://dictionary.yandex.net/dicservice.json/lookupMultiple?ui=ru&srv=tr-text&text=deploy&type=syn%2Cant%2Cderiv%2Cregular&lang=en-ru&flags=1255&dict=en.syn%2Cen.ant%2Cen.deriv%2Cen-ru.regular&yu=5618489511536728465&yum=1536826203321897207'
 
 import jmespath
 import json
