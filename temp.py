@@ -1,4 +1,4 @@
-import jmespath
+# import jmespath
 import json
 import requests
 
@@ -21,6 +21,7 @@ if __name__ == '__main__':
     text = 'welcome'
     text = 'complete'
     respond = requests.get(f'https://dictionary.yandex.net/dicservice.json/lookupMultiple?ui=ru&srv=tr-text&text={text}&type=regular%2Csyn%2Cant%2Cderiv&lang=en-ru&flags=7591&dict=en-ru.regular%2Cen.syn%2Cen.ant%2Cen.deriv&yu=2048703991642255491&yum=1642255618671602095')
+                            'https://dictionary.yandex.net/dicservice.json/queryCorpus?sid=5f6f5799.625aaa2e.a18e6fd0.74722d74657874&ui=ru&srv=tr-text&text=REQUEST&type&lang=en-ru&flags=1063&src=repast&dst&options=0&chunks=1&maxlen=200&v=2&yu=2048703991642255491&yum=1642255618671602095'
     print(translate(respond.json()))
     print('Synonyms - ', add_data(respond.json(), 'syn'))
     print('Deriv - ', add_data(respond.json(), 'deriv'))
